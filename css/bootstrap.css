@@ -2075,6 +2075,10 @@ pre code {
     font-size: 18px;
 }
 
+.col-xs-12 p {
+    font-size: 18px;
+}
+
 .col-xs-1,
 .col-xs-10,
 .col-xs-11,
