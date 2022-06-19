@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.site-navigation {
+    list-style: none;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -191,6 +195,11 @@ a:hover {
 .d-bloc .panel .btn-wire:hover {
     color: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, .3);
+}
+
+.site-navigation a {
+    margin-right: 300px;
+    text-decoration: none;
 }
 
 .d-bloc .panel,
@@ -809,8 +818,8 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.webp");
+.form-group {
+    padding: 10px;
 }
 
 .bg-lines-h2-bg {
